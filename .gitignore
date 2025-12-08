@@ -1,2 +1,38 @@
 venv/
 models/flan-t5-base/model.safetensors
+logs/
+
+# Python cache and checkpoints
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# General temp/logs
+*.log
+*.tmp
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.bin
+*.ckpt
+runs/
+outputs/
+artifacts/
+
+flan_t5_logs_finetuned/checkpoint-226
+flan_t5_logs_finetuned/model.safetensors
+flan_t5_logs_finetuned/checkpoint-339/model.safetensors
+flan_t5_logs_finetuned/checkpoint-339/optimizer.pt
+flan_t5_logs_finetuned/checkpoint-*/
+
+# Env/secrets and OS cruft
+*.env
+.env*
+*.DS_Store
+Thumbs.db
+
