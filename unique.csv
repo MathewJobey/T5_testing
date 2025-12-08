@@ -1,0 +1,62 @@
+id,meaning
+1,Failed SSH login from 218.188.2.4 due to an authentication failure.
+2,Failed root SSH login from 220-135-151-1.hinet-ip.hinet.net due to an authentication failure.
+3,"The system tried to check a password, but the login failed because the username was unknown."
+4,A session was opened for user "cyrus".
+5,A session was closed for user "cyrus".
+6,An event event occurred for system due to unknown.
+7,A session wasa opened for user "news".
+8,A session wasa closed for user "news".
+9,A session was opened for user "test".
+10,A session was closed for user "test".
+11,Failed SSH login from 061092085098.ctinets.com due to an authentication failure.
+12,Failed SSH login from d211-116-254-214.rev.krline.net due to an authentication failure.
+13,A successful connection to the FTP service was established from the IP address 24.54.76.216.
+14,Failed guest SSH login from 211.46.224.253 due to an authentication failure.
+15,A successful connection to the FTP service was established from the IP address 82.252.162.81.
+16,Failed SSH login from adsl-70-242-75-179.dsl.ksc2mo.swbell.net due to an authentication failure.
+17,An unknown FTP user’s session timed out after 900 seconds.
+18,A successful connection to the FTP service was established from the IP address 222.33.90.199.
+19,Received SNMP packets from the IP address 67.170.148.126.
+20,Failed SSH login from 65.166.159.14 due to an authentication failure.
+21,Failed guest SSH login from 217.60.212.66 due to an authentication failure.
+22,Failed root SSH login fromn219076184117.netvigator.com due to an authentication failure.
+23,Failed SSH login from ip-216-69-169-168.ip.secureserver.net due to an authentication failure.
+24,A successful connection to the FTP service was established from the IP address 210.245.165.136.
+25,Failed guest SSH login from 209.152.168.249 due to an authentication failure.
+26,Failed SSH login from 200.60.37.201 due to an authentication failure.
+27,Failed root SSH login 218.22.3.51 due to an authentication failure.
+28,A successful connection to the FTP service was established from the IP address 218.69.108.57.
+29,Failed SSH login from massive.merukuru.org due to an authentication failure.
+30,A successful connection to the FTP service was established from the IP address 210.118.170.95.
+31,A successful connection to the FTP service was established from the IP address 211.167.68.59.
+32,Failed root SSH login from troi.bluesky-technologies.com due to an authentication failure.
+33,Failed root SSH login from 61.53.154.93 due to an authentication failure.
+34,Failed root SSH login from 62-192-102-94.dsl.easynet.nl due to an authentication failure.
+35,Failed SSH login from 211.115.206.155 due to an authentication failure.
+36,A successful connection to the FTP service was established from the IP address 61.74.96.178.
+37,Failed root SSH login from csnsu.nsuok.edu due to an authentication failure.
+38,A successful connection to the FTP service was established from the IP address 208.62.55.75.
+39,Failed root SSH login from h64-187-1-131.gtconnect.net due to an authentication failure.
+40,A successful connection to the FTP service was established from the IP address 210.223.97.117.
+41,Failed SSH login from biblioteka.wsi.edu.pl due to an authentication failure.
+42,Failed root SSH login from 60.30.224.116 due to an authentication failure.
+43,Failed root SSH login from 195.129.24.210 due to an authentication failure.
+44,Authentication from 163.27.187.39 failed due to a Kerberos replay cache permission error.
+45,Kerberos authentication failed during a remote login attempt.
+46,Authentication attempt from 163.27.187.39 failed due to a software connection abort.
+47,A successful connection to the FTP service was established from the IP address 202.82.200.188.
+48,Failed SSH login from zummit.com due to an authentication failure.
+49,A successful connection to the FTP service was established from the IP address 203.101.45.59.
+50,A successful connection to the FTP service was established from the IP address 62.99.164.82.
+51,Failed root SSH login from 210.76.59.29 due to an authentication failure.
+52,A successful connection to the FTP service was established from the IP address 63.197.98.106.
+53,Failed root SSH login from 220.117.241.87 due to an authentication failure.
+54,Failed SSH login from 210.229.150.228 due to an authentication failure.
+55,A successful connection to the FTP service was established from the IP address 211.72.2.106.
+56,Failed root SSH login from 218.16.122.48 due to an authentication failure.
+57,A successful connection to the FTP service was established from the IP address 211.72.151.162.
+58,A successful connection to the FTP service was established from the IP address 221.4.102.93.
+59,Failed test SSH login from 212.0.132.20 due to an authentication failure.
+60,A successful connection to the FTP service was established from the IP address 211.57.88.250.
+61,A successful connection to the FTP service was established from the IP address 211.167.68.59.
