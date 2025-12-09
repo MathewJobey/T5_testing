@@ -1,19 +1,15 @@
 import pandas as pd
-our_df=pd.read_csv('logs_with_meaning.csv')
-clean_df = our_df.iloc[:1000].copy()
+from sklearn.model_selection import train_test_split
 
-clean_df["input_text"] = (
-    "Log: " + clean_df["raw_log"].astype(str) +
-    " | Template: " + clean_df["template"].astype(str)
-)
-clean_df["target_text"] = clean_df["meaning"]
-clean_df[["input_text", "target_text"]].to_csv('tuning_dataset.csv', index=False)
-print(clean_df.head())
+df = pd.read_csv("tuning_dataset2.csv")
 
+train_df, temp_df = train_test_split(df, test_size=0.20, random_state=42)
+val_df, test_df = train_test_split(temp_df, test_size=0.50, random_state=42)
 
-df = pd.read_csv("tuning_dataset.csv")
-print(df.info())
-print(df.head(3))
+print("Train:", len(train_df))
+print("Val:", len(val_df))
+print("Test:", len(test_df))
 
-
-
+train_df.to_csv("train.csv", index=False)
+val_df.to_csv("val.csv", index=False)
+test_df.to_csv("test.csv", index=False)

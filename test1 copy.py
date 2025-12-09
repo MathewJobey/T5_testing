@@ -6,7 +6,7 @@ import os
 # 1. Setup & Load Model (TARGETING CHECKPOINT-565)
 # --------------------------------------------------
 # We point specifically to the checkpoint folder you mentioned
-model_path = "./flan_t5_logs_rawonly/checkpoint-565"
+model_path = "./flan_t5_logs_rawonly_new/checkpoint-500"
 
 print(f"Loading model from {model_path}...")
 
@@ -54,7 +54,7 @@ def generate_summary(log_text):
 # --------------------------------------------------
 if __name__ == "__main__":
     print("\n" + "="*50)
-    print(f"  LOG INTERPRETER (Checkpoint 565)")
+    print(f"  LOG INTERPRETER (Checkpoint 500)")
     print("  Type 'exit' to quit")
     print("="*50)
 
